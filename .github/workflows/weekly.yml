@@ -59,6 +59,25 @@ jobs:
       - name: Test
         run: python3 -m pytest -q
 
+      - name: Clone site repo into site/
+        # site/ 在主仓 .gitignore 里, checkout 不会带过来。但 report 步骤
+        # 需要往 site/ 写静态文件, publish 步骤需要从 site/ push 到站点仓。
+        # 这里把站点仓 clone 下来, 让后续步骤能直接读写。
+        # 没配 SITE_PUSH_TOKEN 时跳过 clone, report 会自动跳过 publish 分支,
+        # 站点不更新但代码仓 commit 仍正常。
+        env:
+          SITE_PUSH_TOKEN: ${{ secrets.SITE_PUSH_TOKEN }}
+        run: |
+          if [ -z "$SITE_PUSH_TOKEN" ]; then
+            echo "::warning::SITE_PUSH_TOKEN 未配置, 跳过 clone site/, 站点本次不更新"
+            exit 0
+          fi
+          if [ -d site/.git ]; then
+            echo "site/ 已存在, 跳过 clone"
+            exit 0
+          fi
+          git clone "https://x-access-token:${SITE_PUSH_TOKEN}@github.com/ikevinxie/remote-jobs-board.git" site
+
       - name: Compute week label
         id: week
         run: |
