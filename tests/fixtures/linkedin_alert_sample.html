@@ -1,0 +1,33 @@
+<!-- 结构取自真实 LinkedIn Job Alerts 邮件(2026-07,已脱敏简化),用于解析器回归。
+     每张卡片 = 岗位链接(/jobs/view/<id>,锚文本即标题)→ 一行「公司 · 地区 (工作方式)」
+     → 一行状态(忽略)。本项目只保留 Remote / Hybrid,纯 On-site 丢弃。 -->
+<html>
+<head><style>.x{color:#000}</style></head>
+<body>
+<table>
+  <tr><td><a href="https://www.linkedin.com/comm/jobs/view/1000000001/?trackingId=aaa%3D%3D&amp;refId=bbb">Supplier Engagement Leader</a></td></tr>
+  <tr><td>GE Vernova · Shanghai (Remote)</td></tr>
+  <tr><td>Actively recruiting</td></tr>
+
+  <tr><td><a href="https://www.linkedin.com/comm/jobs/view/1000000002/?trackingId=ccc">Production Manager, Apparel</a></td></tr>
+  <tr><td>Quince · Shenzhen (Hybrid)</td></tr>
+  <tr><td>Actively recruiting</td></tr>
+
+  <tr><td><a href="https://www.linkedin.com/comm/jobs/view/1000000003/?trackingId=ddd">Global Component Planner</a></td></tr>
+  <tr><td>Signify · Shanghai</td></tr>
+  <tr><td>Actively recruiting</td></tr>
+
+  <tr><td><a href="https://www.linkedin.com/comm/jobs/view/1000000004/?trackingId=eee">Order Fulfillment Leader</a></td></tr>
+  <tr><td>GE HealthCare · Beijing (On-site)</td></tr>
+  <tr><td>Actively recruiting</td></tr>
+
+  <tr><td><a href="https://www.linkedin.com/comm/jobs/view/1000000005/?trackingId=fff">Senior Data Engineer</a></td></tr>
+  <tr><td>Ampd Energy · Remote (Worldwide)</td></tr>
+  <tr><td>1 school alum</td></tr>
+
+  <tr><td><a href="https://www.linkedin.com/help">See all jobs</a></td></tr>
+  <tr><td>© 2026 LinkedIn Corporation</td></tr>
+  <tr><td><a href="https://www.linkedin.com/unsubscribe">Unsubscribe</a></td></tr>
+</table>
+</body>
+</html>

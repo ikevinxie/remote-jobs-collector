@@ -1,0 +1,26 @@
+# 凭据 / 本地配置(含 IMAP 授权码、webhook 等,严禁入库)
+mailbox.toml
+notify.toml
+profiles/*/notify.toml
+# 注意:watchlist.toml / profiles/*/watchlist.toml 是求职筛选规则,不含密钥,
+# 需要入库,否则云端 workflow 跑 ai-all 时候选清单为空。
+
+# 收件夹:小红书截图与 Indeed 样例邮件(个人内容)
+inbox/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Claude Code 本地配置(个人 launch / settings,不入库)
+.claude/
+
+# 站点目录是独立 git 仓库(ikevinxie/remote-jobs-board),主仓不跟踪
+site/
+
+# 本地浏览页(由 run.py web 生成,不需要入库)
+web/jobs.html

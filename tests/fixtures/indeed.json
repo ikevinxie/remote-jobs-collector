@@ -1,0 +1,10 @@
+{
+  "messages": [
+    {
+      "msg_id": "101",
+      "date": "Tue, 15 Jul 2026 08:00:00 +0800",
+      "subject": "招聘远程工作:4 个新岗位与你相关",
+      "html": "<html><body><table><tr><td><h2><a href=\"https://cn.indeed.com/rc/clk/dl?jk=job0001aaaa&from=ja\">高级后端工程师</a></h2></td></tr><tr><td>Acme 科技</td></tr><tr><td>上海市</td></tr><tr><td>Backend platform, remote-friendly team...</td></tr><tr><td>刚刚发布</td></tr><tr><td><h2><a href=\"https://cn.indeed.com/viewjob?jk=job0002bbbb\">远程产品经理</a></h2></td></tr><tr><td>Nomad Inc</td></tr><tr><td>北京市</td></tr><tr><td>Own the product roadmap for a fully remote org...</td></tr><tr><td>1天前</td></tr><tr><td><h2><a href=\"https://cn.indeed.com/rc/clk/dl?jk=job0003cccc\">UI 设计师</a></h2></td></tr><tr><td>Pixel Co</td></tr><tr><td>深圳市</td></tr><tr><td>Design remote-first product surfaces...</td></tr><tr><td>2天前</td></tr><tr><td><h2><a href=\"https://cn.indeed.com/pagead/clk/dl?mo=r&ad=OPAQUE\" class=\"strong-text-link\">数据分析师</a></h2></td></tr><tr><td>DataWorks</td></tr><tr><td>中国</td></tr><tr><td>轻松申请</td></tr><tr><td>Remote data analysis across global teams...</td></tr><tr><td>8天前</td></tr></table></body></html>"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+<!-- 结构取自真实 Indeed「职位提醒」邮件(2026-07,已脱敏简化),用于解析器回归。
+     真实邮件字段:标题在 <h2> 内(组织岗 /rc/clk 带 jk,赞助岗 /pagead 无 jk);
+     其后依次是 公司(纯文本)→ 评分(可选)→ 地区 → [薪资] → [轻松申请] → JD 摘要 → 发布时间。 -->
+<html>
+<head><style>.x{color:#000}</style></head>
+<body>
+<table>
+  <!-- 1. 组织岗(带 jk) -->
+  <tr><td><h2><a href="https://cn.indeed.com/rc/clk/dl?jk=abc123def456&from=ja&tk=xxx">高级后端工程师</a></h2></td></tr>
+  <tr><td>Corning</td></tr>
+  <tr><td>上海市 浦东新区</td></tr>
+  <tr><td>Backend platform work, including remote / virtual collaboration is a plus...</td></tr>
+  <tr><td>刚刚发布</td></tr>
+
+  <!-- 2. 组织岗(公司后带星级评分,不能当地区) -->
+  <tr><td><h2><a href="https://cn.indeed.com/rc/clk/dl?jk=rate99rate88">质量专员</a></h2></td></tr>
+  <tr><td>ABB Electrical Machines Ltd.</td></tr>
+  <tr><td>3.9</td></tr>
+  <tr><td>大连市</td></tr>
+  <tr><td>Support &amp; Remote Diagnostics, commissioning and maintenance...</td></tr>
+  <tr><td>1天前</td></tr>
+
+  <!-- 3. 赞助岗(/pagead,无 jk)→ source_id 走 title|company 哈希 -->
+  <tr><td><h2><a href="https://cn.indeed.com/pagead/clk/dl?mo=r&ad=OPAQUE&fvj=1" class="strong-text-link">远程数据分析师</a></h2></td></tr>
+  <tr><td>IPMC</td></tr>
+  <tr><td>中国</td></tr>
+  <tr><td>时薪1,100-3,800元</td></tr>
+  <tr><td>轻松申请</td></tr>
+  <tr><td>Can work completely independent and remote. We need a quantitative expert...</td></tr>
+  <tr><td>8天前</td></tr>
+
+  <!-- 4. 组织岗,后接页脚样板(必须被截断,不能混入描述) -->
+  <tr><td><h2><a href="https://cn.indeed.com/rc/clk/dl?jk=last000last">生产工程师</a></h2></td></tr>
+  <tr><td>bp</td></tr>
+  <tr><td>太仓市</td></tr>
+  <tr><td>Eligible for relocation. Remote-friendly position available...</td></tr>
+  <tr><td>1天前</td></tr>
+  <tr><td>查看所有招聘职位</td></tr>
+  <tr><td>此处显示的是与您保存的职位提醒查询相符的职位广告。</td></tr>
+  <tr><td>© 2026 Indeed Ireland Operations, Ltd.</td></tr>
+  <tr><td>取消此职位提醒的订阅</td></tr>
+</table>
+</body>
+</html>

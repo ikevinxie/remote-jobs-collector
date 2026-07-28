@@ -1,0 +1,62 @@
+{
+ "story_id": 48747976,
+ "story_title": "Ask HN: Who is hiring? (July 2026)",
+ "hits": [
+  {
+   "author": "Stratinskaya",
+   "comment_text": "Qase | Developer Advocate | Technical Customer Support Specialist | REMOTE | Full-time<p>Qase is how engineering teams verify the quality of AI-generated code, so their companies can safely adopt AI-accelerated workflows.<p>Developer Advocate — US-based, remote (North America). We&#x27;re building the space for how engineering teams verify the quality of AI-generated code. Looking for a QA&#x2F;quality-engineering background with a genuine drive to evangelize — speaking, writing, community presence — either as an experienced developer advocate or a QA practitioner ready to grow into the role. ",
+   "created_at": "2026-07-10T14:10:34Z",
+   "objectID": "48860201",
+   "parent_id": 48747976,
+   "story_id": 48747976
+  },
+  {
+   "author": "dheeraman",
+   "comment_text": "Wave | On-Premises SRE | Remote (EMEA) | Permanent (Full-time) | Salary up to $185,500 + equity<p>We’re making Africa the first cashless continent.<p>We build mobile financial services that radically simplify daily life:\n- Zero account fees and instant availability.\n- Unstoppable reliability, operating smoothly even where infrastructure struggles.\n- Massive scale: Since launching in Senegal in 2017, we’ve grown to serve millions of users across 9 countries—and we’re just getting started.<p>We aren&#x27;t just building a fintech app; we&#x27;re building infrastructure for economic freedom.<p>As",
+   "created_at": "2026-07-09T09:17:40Z",
+   "objectID": "48843116",
+   "parent_id": 48747976,
+   "story_id": 48747976
+  },
+  {
+   "author": "omardo",
+   "comment_text": "Zeitlabs | Senior Frontend Engineer | Remote (UTC+3) | Full time or Full time contract<p>We&#x27;re hiring a senior frontend engineer to own key parts of our frontend platform - including our shared component library strategy - across a legacy React codebase and a modern Next.js (App Router) app. This is real-complexity work, not just greenfield: modernizing older code, publishing reusable component packages in a monorepo, and building RTL&#x2F;LTR (Arabic + English) interfaces with next-intl.\nStack: Next.js, TypeScript, Tailwind v3&#x2F;v4, Radix UI, Open edX Paragon, Zustand&#x2F;Jotai, TanS",
+   "created_at": "2026-07-09T08:17:17Z",
+   "objectID": "48842567",
+   "parent_id": 48747976,
+   "story_id": 48747976
+  },
+  {
+   "author": "janpieterz",
+   "comment_text": "Trinsic | Senior Product Engineer | REMOTE (Europe) | Full-time<p>We&#x27;re building the first Identity Acceptance Network, the &quot;Visa for ID.&quot; Humanity is editing genes, starting space tourism, and verging on artificial general intelligence. Meanwhile, identity verification is still done by taking pictures of plastic cards.<p>Role\n- Senior Product Engineer (#5 on the team; ~20% of engineering capacity). High ownership, product-minded, backend and systems leaning.\n- This is not a ticket-churning role. You should want to understand the competitive landscape, listen in on customer call",
+   "created_at": "2026-07-08T21:27:11Z",
+   "objectID": "48837669",
+   "parent_id": 48747976,
+   "story_id": 48747976
+  },
+  {
+   "author": "aitelcaidhmad",
+   "comment_text": "@janpieterz do you support remote work from Turkey please?",
+   "created_at": "2026-07-10T12:37:54Z",
+   "objectID": "48859053",
+   "parent_id": 48837669,
+   "story_id": 48747976
+  },
+  {
+   "author": "nhanbao",
+   "comment_text": "ResortPass | Senior Software Engineer, Frontend | New York, NY | Onsite | Full-time | $160k–$180k ($210k for senior band) + Equity | Visa possible for exceptional candidates<p>ResortPass is rebuilding the web experience behind one of the largest hospitality marketplaces. We&#x27;re rewriting ~75% of resortpass.com this year, focusing on Core Web Vitals, SEO, performance, and developer experience.<p>Roadmap this year is aggressive: international expansion (Mexico&#x2F;Caribbean, then Europe), moving search off Algolia in-house, a new Hotel SaaS product, Spa as a new business line. AI features (",
+   "created_at": "2026-07-11T03:28:07Z",
+   "objectID": "48868436",
+   "parent_id": 48747976,
+   "story_id": 48747976
+  },
+  {
+   "author": "this-dot-labs",
+   "comment_text": "This Dot Labs\nOpen roles: • Engineering Leads • Senior Engineers<p>What we’re looking for: • Strong frontend engineering experience • 7+ years building production systems • Engineers already using AI in real workflows • Systems thinking and technical ownership • Comfortable working across teams and ambiguity<p>Fully remote with US time zone overlap required.<p>Send resume to jobs@thisdot.co",
+   "created_at": "2026-07-06T13:59:19Z",
+   "objectID": "48804695",
+   "parent_id": 48747976,
+   "story_id": 48747976
+  }
+ ]
+}

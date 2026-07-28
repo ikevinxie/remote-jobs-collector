@@ -1,0 +1,685 @@
+{
+"posts": [
+{
+"id": "3EfDaN",
+"title": "美业跨境贸易",
+"full_title": "美业跨境贸易",
+"summary": "远程招商助理（居家线上兼职/全职均可） 业务方向：圆梵高端护肤+轻医美全球跨境招商，对接国内医美门店、海外经销商、居间合作人 工作内容： 1. 整理中英双语招商资料、价目表、客户台账，归档客户信息； 2. 线上对接意向加盟商，标准化解答加盟政策，同步居间佣金规则； 3. 剪辑简单招商图文、短视频素材",
+"published_at": "2026-07-11T14:15:23.380+08:00",
+"closed": false,
+"deleted": false,
+"featured": false,
+"pinned": false,
+"pinned_in_category": false,
+"modified_at": "2026-07-11T14:15:23.380+08:00",
+"touched_at": "2026-07-11T18:09:10.017+08:00",
+"deleted_at": null,
+"last_comment_at": "2026-07-11T18:09:10.017+08:00",
+"publish_ele_paid": 2,
+"status": "published",
+"views_count": 147,
+"comments_count": 4,
+"hide": false,
+"hided_at": null,
+"upvotes_count": 0,
+"downvotes_count": 0,
+"marks_count": 1,
+"visibility": "public",
+"visibility_set_by_user_id": null,
+"pinned_in_city": false,
+"pinned_city_tag_ids": [],
+"paid_type": "free",
+"tags": [
+{
+"id": 163,
+"name": "跨境/出海",
+"tag_group": {
+"id": 10,
+"name": "领域",
+"code": "field"
+}
+},
+{
+"id": 56,
+"name": "海外",
+"tag_group": {
+"id": 6,
+"name": "城市",
+"code": "city"
+}
+},
+{
+"id": 19,
+"name": "全职远程",
+"tag_group": {
+"id": 4,
+"name": "工作方式",
+"code": "job_type"
+}
+},
+{
+"id": 13,
+"name": "运营",
+"tag_group": {
+"id": 3,
+"name": "职业",
+"code": "skill_type"
+}
+},
+{
+"id": 8,
+"name": "企业直招",
+"tag_group": {
+"id": 2,
+"name": "招聘类型",
+"code": "hire_type"
+}
+}
+],
+"category": {
+"id": 5,
+"name": "社区帖子招聘",
+"code": "jd",
+"tag_list": [
+"发现版块"
+],
+"kind": "work"
+},
+"user": {
+"id": "2yholM9",
+"nickname": "。，",
+"roles": [
+"member"
+],
+"level": 0,
+"created_at": "2026-07-08T17:34:15.675+08:00",
+"avatar_url": "https://duckfiles.oss-cn-qingdao.aliyuncs.com/eleduck/avatar/b2b18bf2-70c0-45eb-9734-99979164565d.jpeg"
+},
+"contributors": [],
+"last_comment": {
+"id": "EOSLawL",
+"user": {
+"id": "pNhzw8e",
+"nickname": "153****0235"
+}
+},
+"content": "<p>远程招商助理（居家线上兼职/全职均可）</p>\n<p>业务方向：圆梵高端护肤+轻医美全球跨境招商，对接国内医美门店、海外经销商、居间合作人<br>\n工作内容：</p>\n<p>1. 整理中英双语招商资料、价目表、客户台账，归档客户信息；</p>\n<p>2. 线上对接意向加盟商，标准化解答加盟政策，同步居间佣金规则；</p>\n<p>3. 剪辑简单招商图文、短视频素材，转发线上渠道引流；</p>\n<p>4. 对接各地合作工作室（舞蹈美业门店），维护置换合作；</p>\n<p>5. 同步跟进海外居间人资料传递，简单翻译基础英文招商文案。<br>\n任职要求：</p>\n<p>6. 可全程居家远程办公，每天固定在线4-8小时；</p>\n<p>7. 会基础文档排版，能看懂简单英文，不会可借助翻译工具；</p>\n<p>8. 做事细心，擅长整理表格、对接客户，有美业/招商经验优先；<br>\n薪资：面议，按月结算，底薪+招商成交提成。<br>\n备注：项目直招，无任何押金、培训费，长期稳定项目。</p>\n"
+},
+{
+"id": "QZfpq2",
+"title": "2. 居家线上｜C++/Godot图形渲染工程师 长期稳定项目",
+"full_title": "2. 居家线上｜C++/Godot图形渲染工程师 长期稳定项目",
+"summary": "熟练掌握C++，熟悉Godot引擎二次开发、GDExtension扩展开发，掌握程序化地形生成、3D物理模拟、NPR三渲二卡通渲染、云端渲染对接、AI资产接口集成相关开发；全程线上居家办公，缴纳深圳社保，薪资依据个人技术能力匹配，设有基础保底薪资，项目收益上不封顶。 ",
+"published_at": "2026-07-10T22:32:07.987+08:00",
+"closed": false,
+"deleted": false,
+"featured": false,
+"pinned": false,
+"pinned_in_category": false,
+"modified_at": "2026-07-10T22:32:07.987+08:00",
+"touched_at": "2026-07-11T08:54:04.202+08:00",
+"deleted_at": null,
+"last_comment_at": "2026-07-11T08:54:04.202+08:00",
+"publish_ele_paid": 2,
+"status": "published",
+"views_count": 76,
+"comments_count": 1,
+"hide": false,
+"hided_at": null,
+"upvotes_count": 0,
+"downvotes_count": 0,
+"marks_count": 0,
+"visibility": "public",
+"visibility_set_by_user_id": null,
+"pinned_in_city": false,
+"pinned_city_tag_ids": [],
+"paid_type": "free",
+"tags": [
+{
+"id": 8,
+"name": "企业直招",
+"tag_group": {
+"id": 2,
+"name": "招聘类型",
+"code": "hire_type"
+}
+},
+{
+"id": 10,
+"name": "开发",
+"tag_group": {
+"id": 3,
+"name": "职业",
+"code": "skill_type"
+}
+},
+{
+"id": 19,
+"name": "全职远程",
+"tag_group": {
+"id": 4,
+"name": "工作方式",
+"code": "job_type"
+}
+}
+],
+"category": {
+"id": 5,
+"name": "社区帖子招聘",
+"code": "jd",
+"tag_list": [
+"发现版块"
+],
+"kind": "work"
+},
+"user": {
+"id": "LdhDqJo",
+"nickname": "星韬智科",
+"roles": [
+"member"
+],
+"level": 0,
+"created_at": "2026-07-10T22:23:05.089+08:00",
+"avatar_url": "https://duckfiles.oss-cn-qingdao.aliyuncs.com/eleduck/avatar/defaults/0.jpg"
+},
+"contributors": [],
+"last_comment": {
+"id": "apSZlRl",
+"user": {
+"id": "BoPhPa",
+"nickname": "大灰@社区服务员"
+}
+},
+"content": "<p>熟练掌握C++，熟悉Godot引擎二次开发、GDExtension扩展开发，掌握程序化地形生成、3D物理模拟、NPR三渲二卡通渲染、云端渲染对接、AI资产接口集成相关开发；全程线上居家办公，缴纳深圳社保，薪资依据个人技术能力匹配，设有基础保底薪资，项目收益上不封顶。</p>\n"
+},
+{
+"id": "W9fmL4",
+"title": "全职远程，海外优先。（产品、运营、技术。。）",
+"full_title": "全职远程，海外优先。（产品、运营、技术。。）",
+"summary": "远程找人了 3 年以上 Google SEO 实战经验，至少独立负责过 1 个以上完整网站项目。 熟悉 Google、Bing 等搜索引擎工作原理及最新排名机制。 熟练掌握 On-page SEO、Technical SEO、Off-page SEO 及内容 SEO 等优化方法。 熟练使用 Goog",
+"published_at": "2026-07-10T01:45:44.875+08:00",
+"closed": false,
+"deleted": false,
+"featured": false,
+"pinned": false,
+"pinned_in_category": false,
+"modified_at": "2026-07-10T11:38:58.144+08:00",
+"touched_at": "2026-07-10T19:29:02.160+08:00",
+"deleted_at": null,
+"last_comment_at": "2026-07-10T19:29:02.160+08:00",
+"publish_ele_paid": 2,
+"status": "published",
+"views_count": 369,
+"comments_count": 13,
+"hide": false,
+"hided_at": null,
+"upvotes_count": 0,
+"downvotes_count": 0,
+"marks_count": 1,
+"visibility": "public",
+"visibility_set_by_user_id": null,
+"pinned_in_city": false,
+"pinned_city_tag_ids": [],
+"paid_type": "free",
+"tags": [
+{
+"id": 19,
+"name": "全职远程",
+"tag_group": {
+"id": 4,
+"name": "工作方式",
+"code": "job_type"
+}
+},
+{
+"id": 121,
+"name": "内容/媒体",
+"tag_group": {
+"id": 10,
+"name": "领域",
+"code": "field"
+}
+},
+{
+"id": 55,
+"name": "其他",
+"tag_group": {
+"id": 6,
+"name": "城市",
+"code": "city"
+}
+},
+{
+"id": 13,
+"name": "运营",
+"tag_group": {
+"id": 3,
+"name": "职业",
+"code": "skill_type"
+}
+},
+{
+"id": 8,
+"name": "企业直招",
+"tag_group": {
+"id": 2,
+"name": "招聘类型",
+"code": "hire_type"
+}
+}
+],
+"category": {
+"id": 5,
+"name": "社区帖子招聘",
+"code": "jd",
+"tag_list": [
+"发现版块"
+],
+"kind": "work"
+},
+"user": {
+"id": "JRhLJDv",
+"nickname": "152****8775",
+"roles": [
+"member"
+],
+"level": 0,
+"created_at": "2026-07-08T19:30:08.534+08:00",
+"avatar_url": "https://duckfiles.oss-cn-qingdao.aliyuncs.com/eleduck/avatar/defaults/9.jpg"
+},
+"contributors": [],
+"last_comment": {
+"id": "yGSO0jY",
+"user": {
+"id": "e5hr69",
+"nickname": "BTB"
+}
+},
+"content": "<p>远程找人了<br>\n3 年以上 Google SEO 实战经验，至少独立负责过 1 个以上完整网站项目。<br>\n熟悉 Google、Bing 等搜索引擎工作原理及最新排名机制。<br>\n熟练掌握 On-page SEO、Technical SEO、Off-page SEO 及内容 SEO 等优化方法。<br>\n熟练使用 Google Search Console、Google Analytics 4、Screaming Frog、Ahrefs 或 SEMrush 等 SEO 工具。<br>\n熟悉网站索引、抓取、收录、关键词布局、页面优化及外链建设全流程。<br>\n熟悉 HTML、CSS 基础知识，了解 JavaScript 对 SEO 的影响，能够与研发团队高效沟通。<br>\n具备优秀的数据分析能力，能够根据排名、收录、流量及转化数据持续优化策略。<br>\n熟悉 AI 工具在 SEO 场景中的应用，如内容生成、关键词分析、数据整理及自动化运营。</p>\n<p>加分项<br>\n有海外网站运营经验，熟悉英语或多语言 SEO。<br>\n有矩阵站、站群、多域名项目运营经验。<br>\n有资讯站、内容聚合站、社区类网站运营经验。<br>\n熟悉 Cloudflare、CDN、服务器基础配置及网站性能优化。<br>\n熟悉 Python、SQL、Shell 等任一脚本语言，可实现 SEO 数据自动化分析。<br>\n有独立运营个人网站、博客或副业站经验，并取得一定自然流量成果。<br>\n熟悉 AI SEO、Programmatic SEO（程序化 SEO）、自动化内容生成等先进 SEO 技术。<br>\n有成功将网站自然流量提升至百万级以上 PV 或显著增长案例。</p>\n<p>薪资范围：15-20k  折算USDT 每月15号结算<br>\n主要业务：钱包（web3）、游戏、视频内容平台"
+},
+{
+"id": "L5faYj",
+"title": "海外远程 荷兰公司 ODM Software Manager (fully remote)",
+"full_title": "海外远程 荷兰公司 ODM Software Manager (fully remote)",
+"summary": "Your Role Description As an experienced and skilled ODM SW Manager with a strong understanding of the Android ecosystem, you oversee the entire softwa",
+"published_at": "2026-07-08T16:25:30.335+08:00",
+"closed": false,
+"deleted": false,
+"featured": false,
+"pinned": false,
+"pinned_in_category": false,
+"modified_at": "2026-07-08T16:26:16.847+08:00",
+"touched_at": "2026-07-09T21:53:04.280+08:00",
+"deleted_at": null,
+"last_comment_at": "2026-07-08T22:55:24.942+08:00",
+"publish_ele_paid": 2,
+"status": "published",
+"views_count": 358,
+"comments_count": 1,
+"hide": false,
+"hided_at": null,
+"upvotes_count": 2,
+"downvotes_count": 0,
+"marks_count": 3,
+"visibility": "public",
+"visibility_set_by_user_id": null,
+"pinned_in_city": false,
+"pinned_city_tag_ids": [],
+"paid_type": "free",
+"tags": [
+{
+"id": 19,
+"name": "全职远程",
+"tag_group": {
+"id": 4,
+"name": "工作方式",
+"code": "job_type"
+}
+},
+{
+"id": 10,
+"name": "开发",
+"tag_group": {
+"id": 3,
+"name": "职业",
+"code": "skill_type"
+}
+},
+{
+"id": 8,
+"name": "企业直招",
+"tag_group": {
+"id": 2,
+"name": "招聘类型",
+"code": "hire_type"
+}
+}
+],
+"category": {
+"id": 5,
+"name": "社区帖子招聘",
+"code": "jd",
+"tag_list": [
+"发现版块"
+],
+"kind": "work"
+},
+"user": {
+"id": "Yph63ek",
+"nickname": "C Chen",
+"roles": [
+"member"
+],
+"level": 0,
+"created_at": "2026-07-08T16:20:32.580+08:00",
+"avatar_url": "https://duckfiles.oss-cn-qingdao.aliyuncs.com/eleduck/avatar/57d43ffc-5652-4f05-a098-52b0bfda7c02.jpeg"
+},
+"contributors": [],
+"last_comment": {
+"id": "BDSXpj1",
+"user": {
+"id": "4bhLmbe",
+"nickname": "133****1678"
+}
+},
+"content": "<p><strong>Your Role Description</strong><br>\nAs an experienced and skilled ODM SW Manager with a strong understanding of the Android ecosystem, you oversee the entire software design flow, from conceptual high-level design and strategic direction to implementation. Ensuring the delivery of software projects meets business requirements and technical constraints. by acting as a bridge between business needs and technical implementation, making decisions about technologies, frameworks, and overall system structure.</p>\n<p><strong>Key Objectives</strong></p>\n<ul>\n<li>Develops and communicates the software design vision and strategy for smartphone platforms to Fairphone’s ODMs.</li>\n<li>Ensures designs are consistent, coherent, and meet Fairphone product requirements.</li>\n<li>Bridge business "
+},
+{
+"id": "N0fVmN",
+"title": "有熟悉wap push方面的吗？关于PDU解析和封装这块的",
+"full_title": "有熟悉wap push方面的吗？关于PDU解析和封装这块的",
+"summary": "我需要开发一个桌面软件。开发语言go方面的把。核心是要懂得PDU方面的知识。（不是AI去理解的那种哦。是原来就是做过相关方面的开发的。）可以留下你相关的经验介绍,我会主动联系你。薪资这块我们细聊。 ",
+"published_at": "2026-07-11T17:13:35.724+08:00",
+"closed": false,
+"deleted": false,
+"featured": false,
+"pinned": false,
+"pinned_in_category": false,
+"modified_at": "2026-07-11T17:16:27.915+08:00",
+"touched_at": "2026-07-12T10:29:40.173+08:00",
+"deleted_at": null,
+"last_comment_at": "2026-07-12T10:29:40.173+08:00",
+"publish_ele_paid": 2,
+"status": "published",
+"views_count": 59,
+"comments_count": 3,
+"hide": false,
+"hided_at": null,
+"upvotes_count": 0,
+"downvotes_count": 0,
+"marks_count": 0,
+"visibility": "public",
+"visibility_set_by_user_id": null,
+"pinned_in_city": false,
+"pinned_city_tag_ids": [],
+"paid_type": "free",
+"tags": [
+{
+"id": 10,
+"name": "开发",
+"tag_group": {
+"id": 3,
+"name": "职业",
+"code": "skill_type"
+}
+},
+{
+"id": 43,
+"name": "外包零活",
+"tag_group": {
+"id": 2,
+"name": "招聘类型",
+"code": "hire_type"
+}
+},
+{
+"id": 19,
+"name": "全职远程",
+"tag_group": {
+"id": 4,
+"name": "工作方式",
+"code": "job_type"
+}
+}
+],
+"category": {
+"id": 5,
+"name": "社区帖子招聘",
+"code": "jd",
+"tag_list": [
+"发现版块"
+],
+"kind": "work"
+},
+"user": {
+"id": "2yho8Jz",
+"nickname": "天降小白",
+"roles": [
+"member"
+],
+"level": 1,
+"created_at": "2025-09-29T23:04:31.861+08:00",
+"avatar_url": "https://duckfiles.oss-cn-qingdao.aliyuncs.com/eleduck/avatar/defaults/5.jpg"
+},
+"contributors": [],
+"last_comment": {
+"id": "13SA8O5",
+"user": {
+"id": "ggh07VN",
+"nickname": "Pelican "
+}
+},
+"content": ""
+},
+{
+"id": "QZfpd2",
+"title": "【付费置顶】招募各行业专家｜将日常电脑工作设计成AI Agent任务（300-1000元/任务）",
+"full_title": "【付费置顶】招募各行业专家｜将日常电脑工作设计成AI Agent任务（300-1000元/任务）",
+"summary": "今天的 AI 会聊天、会写文章，但它不会用金蝶做账、不会用广联达算量、不会在单一窗口制单报关、不会用 SolidWorks 出图。这些真本事，只在每天真正干这些活的人手里。 而\"AI 会什么、不会什么\"这条线划在哪，眼下正是最该看清的时刻：它决定了你我这样的专业工作者，是被 AI 取代，还是抢先找到一条与它协作、并顺势把职业往上重新定位的路。 所以我们付费请你给 AI Agent 出题，再当它执行",
+"published_at": "2026-07-09T17:26:00.000+08:00",
+"closed": false,
+"deleted": false,
+"featured": false,
+"pinned": true,
+"pinned_in_category": false,
+"modified_at": "2026-07-11T10:34:55.973+08:00",
+"touched_at": "2026-07-11T17:55:12.593+08:00",
+"deleted_at": "2026-07-09T18:17:57.194+08:00",
+"last_comment_at": "2026-07-11T17:55:12.593+08:00",
+"publish_ele_paid": 2,
+"status": "published",
+"views_count": 465,
+"comments_count": 6,
+"hide": false,
+"hided_at": null,
+"upvotes_count": 5,
+"downvotes_count": 0,
+"marks_count": 10,
+"visibility": "public",
+"visibility_set_by_user_id": null,
+"pinned_in_city": false,
+"pinned_city_tag_ids": [],
+"paid_type": "free",
+"tags": [
+{
+"id": 54,
+"name": "杭州",
+"tag_group": {
+"id": 6,
+"name": "城市",
+"code": "city"
+}
+},
+{
+"id": 43,
+"name": "外包零活",
+"tag_group": {
+"id": 2,
+"name": "招聘类型",
+"code": "hire_type"
+}
+},
+{
+"id": 18,
+"name": "线上兼职",
+"tag_group": {
+"id": 4,
+"name": "工作方式",
+"code": "job_type"
+}
+},
+{
+"id": 130,
+"name": "AI/人工智能",
+"tag_group": {
+"id": 10,
+"name": "领域",
+"code": "field"
+}
+},
+{
+"id": 162,
+"name": "AI工程师",
+"tag_group": {
+"id": 3,
+"name": "职业",
+"code": "skill_type"
+}
+}
+],
+"category": {
+"id": 5,
+"name": "社区帖子招聘",
+"code": "jd",
+"tag_list": [
+"发现版块"
+],
+"kind": "work"
+},
+"user": {
+"id": "QDhjyye",
+"nickname": "SecondAct AI",
+"roles": [
+"member"
+],
+"level": 0,
+"created_at": "2026-07-09T17:06:25.641+08:00",
+"avatar_url": "https://duckfiles.oss-cn-qingdao.aliyuncs.com/eleduck/avatar/77e6f8a8-a635-48a3-9d80-f73bb3419e44.png"
+},
+"contributors": [],
+"last_comment": {
+"id": "QnS4koB",
+"user": {
+"id": "oPhL2ok",
+"nickname": "153****5036"
+}
+},
+"content": ""
+},
+{
+"id": "CLOSED1",
+"title": "美业跨境贸易",
+"full_title": "美业跨境贸易",
+"summary": "远程招商助理（居家线上兼职/全职均可） 业务方向：圆梵高端护肤+轻医美全球跨境招商，对接国内医美门店、海外经销商、居间合作人 工作内容： 1. 整理中英双语招商资料、价目表、客户台账，归档客户信息； 2. 线上对接意向加盟商，标准化解答加盟政策，同步居间佣金规则； 3. 剪辑简单招商图文、短视频素材，转发线上渠道引流； 4. 对接各地合作工作室（舞蹈美业门店），维护置换合作； 5. 同步跟进海外居",
+"published_at": "2026-07-11T14:15:23.380+08:00",
+"closed": true,
+"deleted": false,
+"featured": false,
+"pinned": false,
+"pinned_in_category": false,
+"modified_at": "2026-07-11T14:15:23.380+08:00",
+"touched_at": "2026-07-11T18:09:10.017+08:00",
+"deleted_at": null,
+"last_comment_at": "2026-07-11T18:09:10.017+08:00",
+"publish_ele_paid": 2,
+"status": "published",
+"views_count": 147,
+"comments_count": 4,
+"hide": false,
+"hided_at": null,
+"upvotes_count": 0,
+"downvotes_count": 0,
+"marks_count": 1,
+"visibility": "public",
+"visibility_set_by_user_id": null,
+"pinned_in_city": false,
+"pinned_city_tag_ids": [],
+"paid_type": "free",
+"tags": [
+{
+"id": 163,
+"name": "跨境/出海",
+"tag_group": {
+"id": 10,
+"name": "领域",
+"code": "field"
+}
+},
+{
+"id": 56,
+"name": "海外",
+"tag_group": {
+"id": 6,
+"name": "城市",
+"code": "city"
+}
+},
+{
+"id": 19,
+"name": "全职远程",
+"tag_group": {
+"id": 4,
+"name": "工作方式",
+"code": "job_type"
+}
+},
+{
+"id": 13,
+"name": "运营",
+"tag_group": {
+"id": 3,
+"name": "职业",
+"code": "skill_type"
+}
+},
+{
+"id": 8,
+"name": "企业直招",
+"tag_group": {
+"id": 2,
+"name": "招聘类型",
+"code": "hire_type"
+}
+}
+],
+"category": {
+"id": 5,
+"name": "社区帖子招聘",
+"code": "jd",
+"tag_list": [
+"发现版块"
+],
+"kind": "work"
+},
+"user": {
+"id": "2yholM9",
+"nickname": "。，",
+"roles": [
+"member"
+],
+"level": 0,
+"created_at": "2026-07-08T17:34:15.675+08:00",
+"avatar_url": "https://duckfiles.oss-cn-qingdao.aliyuncs.com/eleduck/avatar/b2b18bf2-70c0-45eb-9734-99979164565d.jpeg"
+},
+"contributors": [],
+"last_comment": {
+"id": "EOSLawL",
+"user": {
+"id": "pNhzw8e",
+"nickname": "153****0235"
+}
+},
+"content": "<p>远程招商助理（居家线上兼职/全职均可）</p>\n<p>业务方向：圆梵高端护肤+轻医美全球跨境招商，对接国内医美门店、海外经销商、居间合作人<br>\n工作内容：</p>\n<p>1. 整理中英双语招商资料、价目表、客户台账，归档客户信息；</p>\n<p>2. 线上对接意向加盟商，标准化解答加盟政策，同步居间佣金规则；</p>\n<p>3. 剪辑简单招商图文、短视频素材，转发线上渠道引流；</p>\n<p>4. 对接各地合作工作室（舞蹈美业门店），维护置换合作；</p>\n<p>5. 同步跟进海外居间人资料传递，简单翻译基础英文招商文案。<br>\n任职要求：</p>\n<p>6. 可全程居家远程办公，每天固定在线4-8小时；</p>\n<p>7. 会基础文档排版，能看懂简单英文，不会可借助翻译工具；</p>\n<p>8. 做事细心，擅长整理表格、对接客户，有美业/招商经验优先；<br>\n薪资：面议，按月结算，底薪+招商成交提成。<br>\n备注：项目直招，无任何押金、培训费，长期稳定项目。</p>\n"
+}
+]
+}

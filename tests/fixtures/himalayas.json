@@ -1,0 +1,192 @@
+{
+ "comments": "13/03/2026: The API has been updated to include the companySlug field in the response.",
+ "updatedAt": 1783731532,
+ "offset": 0,
+ "limit": 5,
+ "totalCount": 100371,
+ "jobs": [
+  {
+   "title": "Content & Marcom Specialist",
+   "excerpt": "DescriptionAbout the RoleAre you the kind of writer who can make technical topics feel human, clear, and impossible to ignore?",
+   "companyName": "Ceragon Networks",
+   "companySlug": "ceragon-networks",
+   "companyLogo": "https://cdn-images.himalayas.app/rjycopdmpvj1jkwrx4tp6y8e51jv",
+   "employmentType": "Full Time",
+   "minSalary": null,
+   "maxSalary": null,
+   "salaryPeriod": "annual",
+   "seniority": [
+    "Senior"
+   ],
+   "currency": null,
+   "locationRestrictions": [
+    "United States"
+   ],
+   "timezoneRestrictions": [
+    -10,
+    -9,
+    -8,
+    -7,
+    -6,
+    -5,
+    14
+   ],
+   "categories": [
+    "Content-Marketing",
+    "Marketing-Communications",
+    "Copywriting",
+    "B2B-Marketing",
+    "Digital-Marketing",
+    "Marketing-Content-Specialist",
+    "Content-&-Social-Media-Specialist",
+    "Content-Marketing-Specialist",
+    "Brand-And-Content-Specialist",
+    "Content-Specialist",
+    "Marketing-And-Communications-Specialist",
+    "Marketing-Communications-Specialist"
+   ],
+   "parentCategories": [
+    "Content Creator",
+    "Marketing"
+   ],
+   "description": "<h3>Description</h3><h3>About the Role</h3><p>Are you the kind of writer who can make technical topics feel human, clear, and impossible to ignore? Ceragon is looking for a Content &amp; Marcom Specia",
+   "pubDate": 1783731532,
+   "expiryDate": 1788915531,
+   "applicationLink": "https://himalayas.app/companies/ceragon-networks/jobs/content-marcom-specialist",
+   "guid": "https://himalayas.app/companies/ceragon-networks/jobs/content-marcom-specialist"
+  },
+  {
+   "title": "Product Manager - Web3/ DeFi",
+   "excerpt": "Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users.",
+   "companyName": "Binance",
+   "companySlug": "binance",
+   "companyLogo": "https://cdn-images.himalayas.app/vkkqp17t4dasbwev5ryj7iw3dtzw",
+   "employmentType": "Full Time",
+   "minSalary": null,
+   "maxSalary": null,
+   "salaryPeriod": "annual",
+   "seniority": [
+    "Senior"
+   ],
+   "currency": null,
+   "locationRestrictions": [
+    "Hong Kong",
+    "Singapore",
+    "Taiwan"
+   ],
+   "timezoneRestrictions": [
+    8
+   ],
+   "categories": [
+    "Product-Management",
+    "Web3-Product-Management",
+    "DeFi",
+    "Product-Strategy",
+    "Fintech-Product-Management",
+    "Web3-Product-Manager",
+    "DeFi-Product-Manager",
+    "Crypto-Product-Manager",
+    "Web3-Product-Leadership",
+    "Blockchain-Product-Manager"
+   ],
+   "parentCategories": [],
+   "description": "<div><a href=\"https://himalayas.app/companies/binance\">Binance</a> is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. W",
+   "pubDate": 1783731516,
+   "expiryDate": 1788915515,
+   "applicationLink": "https://himalayas.app/companies/binance/jobs/product-manager-web3-defi",
+   "guid": "https://himalayas.app/companies/binance/jobs/product-manager-web3-defi"
+  },
+  {
+   "title": "Portfolio Manager - Freelance AI Trainer",
+   "excerpt": "Please submit your CV in English and indicate your level of English proficiency.",
+   "companyName": "Mindrift",
+   "companySlug": "mindrift",
+   "companyLogo": "https://cdn-images.himalayas.app/xq3hn9b4xx58golfhgf8twc4izd7",
+   "employmentType": "Contractor",
+   "minSalary": 50,
+   "maxSalary": 50,
+   "salaryPeriod": "hourly",
+   "seniority": [
+    "Mid-level"
+   ],
+   "currency": "USD",
+   "locationRestrictions": [
+    "Romania"
+   ],
+   "timezoneRestrictions": [
+    2
+   ],
+   "categories": [
+    "Portfolio-Management",
+    "Investment-Management",
+    "AI-Training",
+    "Financial-Advisory",
+    "Quality-Assurance",
+    "Freelance-AI-Trainer",
+    "Freelance-AI-Data-Trainer",
+    "Freelance-AI-Training-Specialist",
+    "Freelance-AI-Model-Trainer",
+    "AI-Training-Freelance"
+   ],
+   "parentCategories": [
+    "Developer"
+   ],
+   "description": "<p><strong>Please submit your CV in English and indicate your level of English proficiency. </strong></p><p><a href=\"https://himalayas.app/companies/mindrift\">Mindrift</a> connects specialists with pr",
+   "pubDate": 1783731390,
+   "expiryDate": 1788915388,
+   "applicationLink": "https://himalayas.app/companies/mindrift/jobs/portfolio-manager-freelance-ai-trainer-169480136",
+   "guid": "https://himalayas.app/companies/mindrift/jobs/portfolio-manager-freelance-ai-trainer-169480136"
+  },
+  {
+   "title": "Senior System Software Engineer, NvSci",
+   "excerpt": "NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years.",
+   "companyName": "NVIDIA",
+   "companySlug": "nvidia",
+   "companyLogo": "https://cdn-images.himalayas.app/9jkqq85jdsq9vtt2fuhb5vq8y2zy",
+   "employmentType": "Full Time",
+   "minSalary": 184000,
+   "maxSalary": 356500,
+   "salaryPeriod": "annual",
+   "seniority": [
+    "Senior"
+   ],
+   "currency": "USD",
+   "locationRestrictions": [
+    "Canada",
+    "United States"
+   ],
+   "timezoneRestrictions": [
+    -10,
+    -9,
+    -8,
+    -7,
+    -6,
+    -5,
+    -4,
+    -3.5,
+    14
+   ],
+   "categories": [
+    "System-Software-Engineering",
+    "Embedded-Systems-Engineering",
+    "Automotive-Software-Engineering",
+    "Senior-Software-Engineering",
+    "Systems-Architecture",
+    "AI-Software-Engineering",
+    "Safety-Critical-Software-Engineering",
+    "Senior-Systems-Software-Engineer",
+    "Systems-Software-Engineer",
+    "Senior-System-Engineer",
+    "Senior-Systems-Engineer",
+    "GPU-Systems-Engineer",
+    "Senior-Staff-Software-Engineer"
+   ],
+   "parentCategories": [],
+   "description": "<p><a href=\"https://himalayas.app/companies/nvidia\">NVIDIA</a> has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It’s a unique legacy of innovation ",
+   "pubDate": 1783731382,
+   "expiryDate": 1788915380,
+   "applicationLink": "https://himalayas.app/companies/nvidia/jobs/senior-system-software-engineer-nvsci",
+   "guid": "https://himalayas.app/companies/nvidia/jobs/senior-system-software-engineer-nvsci"
+  }
+ ]
+}

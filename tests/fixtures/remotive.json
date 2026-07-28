@@ -1,0 +1,89 @@
+{
+ "00-warning": "Remotive main domain moved to remotive.com ! Please make your API calls on remotive.com/api/remote-jobs instead of remotive.io now ;) Legacy endpoint remotive.io/api/remote-jobs will be terminated in June 2022. Thank you!",
+ "0-legal-notice": "Legal warning - Hey, thanks for using Remotive's API, we appreciate it! Please note that API documentation and access is granted so that developers can share our jobs further. Please do not submit Remotive jobs to third Party websites, including but not limited to: Jooble, Neuvoo, Google Jobs, LinkedIn Jobs. Please link back to the URL found on Remotive AND mention Remotive as a source in order to Remotive to get traffic from your listing. If you don't do that, we'll terminate your API access, sorry! Jobs displayed are delayed by 24 hours, the goal being that jobs are attributed to Remotive on various platforms. Displaying our jobs in order to collect signups/email addresses to show a listing constitutes a breach of our terms of services. We offer a private, paid-for API, please email us at hello(at)remotive(dot)io for more information (starting budget is $5k/mo). Please find out terms of services on https://remotive.com/api-documentation. Please note that there is absolutely no need to request Remotive Job data too frequently. Typically, you only need to GET Remotive job data through this API a couple of times a day (we advise max. 4 times a day). Our data is not changing much faster than that anyway. Note that excessive requests will be blocked. Many thanks (Rodolphe & the Remotive team!)",
+ "job-count": 4,
+ "total-job-count": 30,
+ "jobs": [
+  {
+   "id": 2091048,
+   "url": "https://remotive.com/remote-jobs/sales/product-sales-specialist-pet-health-2091048",
+   "title": "Product Sales Specialist - Pet Health",
+   "company_name": "Tribe Wellness",
+   "company_logo": "https://remotive.com/job/2091048/logo",
+   "category": "Sales",
+   "tags": [
+    "excel",
+    "salesforce",
+    "video",
+    "spark"
+   ],
+   "job_type": "full_time",
+   "publication_date": "2026-07-09T08:01:56",
+   "candidate_required_location": "USA, CST (UTC-6)",
+   "salary": "$55k - $100k",
+   "description": "<p><strong>Must Love Dogs!!</strong></p>\n<p class=\"MsoNormal\">At Tribe Wellness, we're more than just a tribe – we're a movement. Rooted in courage, empowerment, and integrity, we've pioneered solutio"
+  },
+  {
+   "id": 2086540,
+   "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
+   "title": "Inside Sales Contractor",
+   "company_name": "Credit Wellness, LLC",
+   "company_logo": "https://remotive.com/job/2086540/logo",
+   "category": "Sales",
+   "tags": [
+    "CRM",
+    "google sheets",
+    "financial services",
+    "Inside Sales"
+   ],
+   "job_type": "full_time",
+   "publication_date": "2026-07-08T21:48:18",
+   "candidate_required_location": "Worldwide",
+   "salary": "OTE $25k - $35k",
+   "description": "<p dir=\"ltr\" style=\"line-height: 1.38; background-color: #ffffff; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt 0pt 12pt 0pt;\"><span style=\"color: #2d2d2d; background-color: transparent; font-weig",
+   "company_logo_url": "https://remotive.com/job/2086540/logo"
+  },
+  {
+   "id": 2090949,
+   "url": "https://remotive.com/remote-jobs/sales/high-ticket-financial-sales-specialist-team-lead-track-2090949",
+   "title": "High-Ticket Financial Sales Specialist & Team Lead Track",
+   "company_name": "FSE LLC",
+   "company_logo": "https://remotive.com/job/2090949/logo",
+   "category": "Sales",
+   "tags": [
+    "C",
+    "excel",
+    "team lead",
+    "financial services",
+    "C-Suite"
+   ],
+   "job_type": "full_time",
+   "publication_date": "2026-07-08T19:44:58",
+   "candidate_required_location": "Worldwide",
+   "salary": "$3k - $10k",
+   "description": "<div class=\"h3\"><strong>Position:</strong> Account Executive / B2B Sales Specialist</div>\n<p> </p>\n<div class=\"h3\"><strong>Compensation:</strong> 100% Commission (Uncapped Earning Potential)</div>\n<p>",
+   "company_logo_url": "https://remotive.com/job/2090949/logo"
+  },
+  {
+   "id": 2091047,
+   "url": "https://remotive.com/remote-jobs/all-others/online-data-analyst-canada-2091047",
+   "title": "Online Data Analyst Canada",
+   "company_name": "TELUS Digital",
+   "company_logo": "https://remotive.com/job/2091047/logo",
+   "category": "All others",
+   "tags": [
+    "go",
+    "social media",
+    "AI/ML",
+    "research",
+    "diversity"
+   ],
+   "job_type": "part_time",
+   "publication_date": "2026-07-08T13:02:27",
+   "candidate_required_location": "Canada",
+   "salary": "",
+   "description": "<p class=\"figma-padding-bottom-32 tw-border-b tw-border-[#E3E6E8]\" style=\"border-width: 0px 0px 1px; border-color: rgb(227, 230, 232); --tw-shadow: 0 0 #0000; --tw-ring-inset: ; --tw-ring-offset-width",
+   "company_logo_url": "https://remotive.com/job/2091047/logo"
+  }
+ ]
+}

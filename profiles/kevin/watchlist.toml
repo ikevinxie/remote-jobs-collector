@@ -1,0 +1,58 @@
+# 关注清单配置(见 SPEC.md §12)
+#
+# 字段说明(除 name 外都可省略,省略 = 不限制):
+#   name             版块标题(必填)
+#   keywords         关键词列表,命中岗位标题或 tags 之一即算命中(整词匹配,不区分大小写)
+#   exclude_keywords 排除关键词,命中则剔除
+#   categories       限定职能:engineering / design / product / data / marketing / sales /
+#                    support / ops_hr / finance_legal / writing / other
+#   regions          限定地区:worldwide / americas / europe / asia_pacific /
+#                    africa_middle_east / other
+#   companies        限定公司名(子串匹配,不区分大小写)
+#
+# 规则内各字段 AND、字段内列表 OR;每条 [[rules]] 在周报里是一个独立版块。
+# 2026-07-11 由 Kevin 在对话中确认:所有规则限定 全球+亚太,排除实习/初级岗。
+
+[[rules]]
+name = "AI / ML / LLM"
+keywords = ["ai", "machine learning", "llm", "agent", "ml", "genai"]
+exclude_keywords = ["intern", "internship", "junior", "entry level"]
+categories = ["engineering", "data"]
+regions = ["worldwide", "asia_pacific"]
+
+[[rules]]
+name = "后端 / 全栈"
+keywords = ["backend", "back-end", "full-stack", "full stack", "python", "go", "node", "api"]
+exclude_keywords = ["intern", "internship", "junior", "entry level"]
+categories = ["engineering"]
+regions = ["worldwide", "asia_pacific"]
+
+[[rules]]
+name = "产品经理"
+exclude_keywords = ["intern", "internship", "junior", "entry level"]
+categories = ["product"]
+regions = ["worldwide", "asia_pacific"]
+
+[[rules]]
+name = "数据 / 分析"
+exclude_keywords = ["intern", "internship", "junior", "entry level"]
+categories = ["data"]
+regions = ["worldwide", "asia_pacific"]
+
+[[rules]]
+name = "市场 / 销售"
+exclude_keywords = ["intern", "internship", "junior", "entry level"]
+categories = ["marketing", "sales"]
+regions = ["worldwide", "asia_pacific"]
+
+[[rules]]
+name = "设计"
+exclude_keywords = ["intern", "internship", "junior", "entry level"]
+categories = ["design"]
+regions = ["worldwide", "asia_pacific"]
+
+[[rules]]
+name = "其它职能"
+exclude_keywords = ["intern", "internship", "junior", "entry level"]
+categories = ["other", "support", "ops_hr", "finance_legal", "writing"]
+regions = ["worldwide", "asia_pacific"]
