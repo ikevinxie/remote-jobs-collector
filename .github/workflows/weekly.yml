@@ -79,14 +79,16 @@ jobs:
           }
 
       - name: AI generate (picks + summaries + prep)
-        if: ${{ secrets.DASHSCOPE_API_KEY != '' }}
+        # 注意: step 级 if: 不能直接访问 secrets.*(GitHub 安全限制),
+        # 所以把 secret 通过 env 注入, 在 run 脚本里检查空值。
         env:
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
-        run: python3 run.py ai-all --week "${{ steps.week.outputs.WEEK }}"
-
-      - name: AI generate (skipped — no DASHSCOPE_API_KEY)
-        if: ${{ secrets.DASHSCOPE_API_KEY == '' }}
-        run: echo "::warning::DASHSCOPE_API_KEY 未配置, 跳过 AI 产出。周报将不含 picks/summaries/prep。"
+        run: |
+          if [ -z "$DASHSCOPE_API_KEY" ]; then
+            echo "::warning::DASHSCOPE_API_KEY 未配置, 跳过 AI 产出。周报将不含 picks/summaries/prep。"
+            exit 0
+          fi
+          python3 run.py ai-all --week "${{ steps.week.outputs.WEEK }}"
 
       - name: Import AI artifacts
         run: python3 run.py import-ai --week "${{ steps.week.outputs.WEEK }}"
@@ -127,10 +129,13 @@ jobs:
           git push
 
       - name: Publish site (push site/ to remote-jobs-board)
-        if: ${{ secrets.SITE_PUSH_TOKEN != '' }}
         env:
           SITE_PUSH_TOKEN: ${{ secrets.SITE_PUSH_TOKEN }}
         run: |
+          if [ -z "$SITE_PUSH_TOKEN" ]; then
+            echo "::warning::SITE_PUSH_TOKEN 未配置, 跳过站点发布。site/ 内容已生成但未推。"
+            exit 0
+          fi
           # site/ 是独立 git 仓库, 用 PAT 推
           cd site
           git config user.name "github-actions[bot]"
@@ -144,7 +149,3 @@ jobs:
           git commit -m "publish ${{ steps.week.outputs.WEEK }}"
           git pull --rebase origin main || git pull --rebase origin gh-pages || true
           git push || echo "::warning::site push 失败, 不阻断 (Pages 可手动触发重建)"
-
-      - name: Publish site (skipped — no SITE_PUSH_TOKEN)
-        if: ${{ secrets.SITE_PUSH_TOKEN == '' }}
-        run: echo "::warning::SITE_PUSH_TOKEN 未配置, 跳过站点发布。site/ 内容已生成但未推。"
