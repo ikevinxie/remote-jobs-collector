@@ -1,0 +1,150 @@
+# Remote Jobs Collector — 每周六自动采集 + AI 产出 + 发布 + 通知
+# 见 SPEC.md「GitHub Actions 自动化」
+#
+# 双仓结构:
+#   - 本仓 (remote-jobs-collector): 代码 + data/jobs.db + reports/
+#   - 站点仓 (remote-jobs-board): 由 publish 步骤用 SITE_PUSH_TOKEN 推
+#
+# 必需 Secrets:
+#   DASHSCOPE_API_KEY  百炼 API key (AI 打分/速览/面试准备/小红书视觉)
+# 可选 Secrets:
+#   SITE_PUSH_TOKEN    有 repo scope 的 PAT, 用于推站点仓; 缺则跳过 publish
+#   NOTIFY_CONFIG      notify.toml 内容 (含 webhook); 缺则跳过 notify
+#   NOTIFY_CONFIG_<PROFILE>  每个 profile 的 notify.toml, 如 NOTIFY_CONFIG_KEVIN
+
+name: weekly
+
+on:
+  schedule:
+    # 每周六 10:00 CST = UTC 02:00
+    - cron: "0 2 * * 6"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  weekly:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Reject stale checkout
+        # 跟 AI digest 项目同款兜底: 落后 origin/main 直接 fail, 5 秒内红掉,
+        # 不浪费 30+ 分钟 LLM API 时间在已修复的 bug 上。
+        run: |
+          git fetch origin main
+          AHEAD=$(git rev-list --count HEAD..origin/main)
+          if [ "$AHEAD" != "0" ]; then
+            echo "::error::本次 run checkout 的是 $(git rev-parse --short HEAD), 落后 origin/main $AHEAD 个 commit。"
+            echo "::error::请 cancel 所有 queued run 后重触发。"
+            exit 1
+          fi
+          echo "✓ HEAD == origin/main ($(git rev-parse --short HEAD))"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          # 项目纯标准库, 无第三方依赖, 不需要 pip install。
+          # conftest.py 会把 src/ 加到 sys.path, pytest 直接能跑。
+
+      - name: Install pytest
+        run: pip install --quiet pytest
+
+      - name: Test
+        run: python3 -m pytest -q
+
+      - name: Compute week label
+        id: week
+        run: |
+          WEEK=$(python3 -c 'from datetime import date; y,w,_=date.today().isocalendar(); print(f"{y}-W{w:02d}")')
+          echo "WEEK=$WEEK" >> "$GITHUB_OUTPUT"
+          echo "本周 label: $WEEK"
+
+      - name: Collect (9 sources, skip notify)
+        env:
+          MAILBOX_CONFIG: ${{ secrets.MAILBOX_CONFIG }}
+        run: |
+          # mailbox.toml 含 IMAP 凭据, 不入库; 通过 secret 注入
+          if [ -n "$MAILBOX_CONFIG" ]; then
+            printf '%s\n' "$MAILBOX_CONFIG" > mailbox.toml
+          fi
+          python3 run.py run --skip-notify || {
+            echo "::warning::collect 退出非 0, 继续后续步骤 (SPEC 允许偶发源失败)"
+          }
+
+      - name: AI generate (picks + summaries + prep)
+        if: ${{ secrets.DASHSCOPE_API_KEY != '' }}
+        env:
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+        run: python3 run.py ai-all --week "${{ steps.week.outputs.WEEK }}"
+
+      - name: AI generate (skipped — no DASHSCOPE_API_KEY)
+        if: ${{ secrets.DASHSCOPE_API_KEY == '' }}
+        run: echo "::warning::DASHSCOPE_API_KEY 未配置, 跳过 AI 产出。周报将不含 picks/summaries/prep。"
+
+      - name: Import AI artifacts
+        run: python3 run.py import-ai --week "${{ steps.week.outputs.WEEK }}"
+
+      - name: Report (regenerate md + site/)
+        run: python3 run.py report
+
+      - name: Inject notify configs (if secrets present)
+        env:
+          NOTIFY_CONFIG: ${{ secrets.NOTIFY_CONFIG }}
+          NOTIFY_CONFIG_KEVIN: ${{ secrets.NOTIFY_CONFIG_KEVIN }}
+        run: |
+          if [ -n "$NOTIFY_CONFIG" ]; then
+            printf '%s\n' "$NOTIFY_CONFIG" > notify.toml
+            echo "✓ notify.toml injected"
+          fi
+          if [ -n "$NOTIFY_CONFIG_KEVIN" ]; then
+            mkdir -p profiles/kevin
+            printf '%s\n' "$NOTIFY_CONFIG_KEVIN" > profiles/kevin/notify.toml
+            echo "✓ profiles/kevin/notify.toml injected"
+          fi
+
+      - name: Notify (per profile)
+        run: python3 run.py notify || echo "::warning::notify 失败 (可能缺 notify.toml), 不阻断"
+
+      - name: Commit & push code repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无变更, 跳过 commit"
+            exit 0
+          fi
+          git commit -m "weekly: ${{ steps.week.outputs.WEEK }}
+          Co-Authored-By: Claude <noreply@anthropic.com>"
+          git pull --rebase origin main || { echo "::error::rebase 冲突"; exit 1; }
+          git push
+
+      - name: Publish site (push site/ to remote-jobs-board)
+        if: ${{ secrets.SITE_PUSH_TOKEN != '' }}
+        env:
+          SITE_PUSH_TOKEN: ${{ secrets.SITE_PUSH_TOKEN }}
+        run: |
+          # site/ 是独立 git 仓库, 用 PAT 推
+          cd site
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${SITE_PUSH_TOKEN}@github.com/ikevinxie/remote-jobs-board.git"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "site/ 无变更, 跳过 push"
+            exit 0
+          fi
+          git commit -m "publish ${{ steps.week.outputs.WEEK }}"
+          git pull --rebase origin main || git pull --rebase origin gh-pages || true
+          git push || echo "::warning::site push 失败, 不阻断 (Pages 可手动触发重建)"
+
+      - name: Publish site (skipped — no SITE_PUSH_TOKEN)
+        if: ${{ secrets.SITE_PUSH_TOKEN == '' }}
+        run: echo "::warning::SITE_PUSH_TOKEN 未配置, 跳过站点发布。site/ 内容已生成但未推。"

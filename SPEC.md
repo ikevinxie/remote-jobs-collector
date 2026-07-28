@@ -294,3 +294,126 @@
 - **校准状态**:2026-07-15 已用真实样例(`inbox/linkedin/` 一封)校准;当日实测 IMAP 拉取 18 封、解析 58 个 Remote/Hybrid 岗位。fixture=`tests/fixtures/linkedin_alert_sample.html`(覆盖 Remote/Hybrid 保留、On-site 与无标记丢弃、Remote(Worldwide) 保留)。
 - **归一化补充**:`normalize._REGION_KEYWORDS` 补英文中国城市(shanghai/beijing/shenzhen/guangzhou/hangzhou/chengdu/wuhan/nanjing/suzhou/dalian + hong kong/taiwan/taipei)。
 - **测试**:样例 HTML 喂 `parse_email_html`,断言只留 Remote/Hybrid、公司/地区/规范 url、跨邮件按 id 去重;缺配置 `fetch()` 返回空。
+
+## 30. GitHub Actions 自动化(2026-07-28 确认)
+
+把原本依赖本地 Claude Code 会话的整条流水线搬上 GitHub Actions,实现无人值守每周自动跑。
+
+### 双仓结构
+
+- **代码仓**:`ikevinxie/remote-jobs-collector`(本仓) — 装代码 + `data/jobs.db` + `reports/` + workflow。
+- **站点仓**:`ikevinxie/remote-jobs-board`(已存在) — 只装发布出来的静态站点,GitHub Pages 从这里部署。
+- workflow 跑完后 push 两个仓:代码仓用内置 `GITHUB_TOKEN`,站点仓用 Personal Access Token (`SITE_PUSH_TOKEN`)。
+
+### 调度
+
+- **`weekly.yml`**:cron `0 2 * * 6`(每周六 10:00 CST = UTC 02:00)+ `workflow_dispatch` 手动触发。
+- 步骤顺序:checkout → staleness check → setup-python → pytest → 算 week label → `run.py run --skip-notify` → `run.py ai-all`(需 `DASHSCOPE_API_KEY`) → `run.py import-ai` → `run.py report` → 注入 notify 配置(可选) → `run.py notify` → commit & push 代码仓 → push 站点仓。
+
+### LLM 集成(`src/remote_jobs/llm.py`)
+
+替代原本由本地 Claude Code 完成的 SPEC §18 / §22 / §28 步骤:
+
+- `score_picks(candidates, profile_md)` → `<W>-picks.json`(通用 1-10 分,挑 5-8 条)
+- `write_summaries(candidates)` → `<W>-summaries.json`(全部候选 2-3 句中文 TL;DR,封顶 100)
+- `write_prep(picks, by_key)` → `<W>-prep.json`(Top 5 公司速查 + 5 面试题)
+- `extract_xhs_jobs(image_path, notes)` → 视觉提取小红书截图里的岗位
+
+底层用百炼 DashScope OpenAI 兼容接口,文本模型 `qwen-max`、视觉模型 `qwen-vl-max`,带 parse-retry(LLM 写畸形 JSON 时回喂修正,最多 2 次)。
+
+### Secrets 清单
+
+| Secret | 必需? | 用途 |
+|---|---|---|
+| `DASHSCOPE_API_KEY` | 是(否则 AI 步骤跳过) | 百炼 API key,跟 AI digest 项目同一个 |
+| `SITE_PUSH_TOKEN` | 是(否则站点不更新) | 有 `repo` scope 的 PAT,用于 push 站点仓 |
+| `MAILBOX_CONFIG` | 否 | `mailbox.toml` 内容(IMAP 凭据),缺则 Indeed/LinkedIn 邮件源跳过 |
+| `NOTIFY_CONFIG` | 否 | 根 `notify.toml` 内容(webhook),缺则 notify 步骤跳过 |
+| `NOTIFY_CONFIG_KEVIN` | 否 | `profiles/kevin/notify.toml` 内容,每个 profile 一个 |
+
+### 失败兜底
+
+- **staleness check**:checkout 后立刻对比 HEAD vs origin/main,落后任何 commit 直接 fail,5 秒内红掉,不浪费 LLM API 时间。
+- **collect 失败**:`|| true` 兜底,个别源挂不阻断后续。
+- **ai-all 失败**:DASHSCOPE_API_KEY 缺失时整步跳过,周报不含 AI 精选但仍能发。
+- **publish 失败**:SITE_PUSH_TOKEN 缺失或 push 失败时记 warning,不阻断代码仓 commit。
+- **commit & push 代码仓**:`git pull --rebase` 兜底并发 push。
+
+### 修改调度时间 / 频次(小白指南)
+
+所有自动调度都写在 `.github/workflows/weekly.yml` 顶部的 `on.schedule.cron` 字段里。**改完 commit & push 就生效**,不用重启任何东西。
+
+#### cron 表达式速查
+
+cron 是 5 个空格分隔的字段:`分 时 日 月 星期`。**GitHub Actions 的 cron 用 UTC 时间**,不是北京时间。北京时间 = UTC + 8,所以「北京 10:00」要写成「UTC 02:00」。
+
+| 字段 | 取值 | 例子 |
+|---|---|---|
+| 分 | 0-59 | `0` = 整点,`30` = 半点 |
+| 时 | 0-23(UTC) | `2` = UTC 02:00 = 北京 10:00 |
+| 日 | 1-31 | `1` = 每月 1 号,`*` = 每天 |
+| 月 | 1-12 | `*` = 每月 |
+| 星期 | 0-6(0=周日,6=周六) | `6` = 每周六,`*` = 每天 |
+
+#### 常用配方(直接抄)
+
+| 想要的节奏 | cron 表达式 | 北京时间 |
+|---|---|---|
+| 每周六 10:00(当前) | `0 2 * * 6` | 周六 10:00 |
+| 每周五 20:00 | `0 12 * * 5` | 周五 20:00 |
+| 每周一、四 10:00 | `0 2 * * 1,4` | 周一、四 10:00 |
+| 每天 10:00 | `0 2 * * *` | 每天 10:00 |
+| 每月 1 号 10:00 | `0 2 1 * *` | 每月 1 号 10:00 |
+
+#### 改的步骤(以「改到周日 9:00」为例)
+
+1. 编辑器打开 `.github/workflows/weekly.yml`。
+2. 找到顶部:
+   ```yaml
+   on:
+     schedule:
+       # 每周六 10:00 CST = UTC 02:00
+       - cron: "0 2 * * 6"
+     workflow_dispatch: {}
+   ```
+3. 改成:
+   ```yaml
+       # 每周日 09:00 CST = UTC 01:00
+       - cron: "0 1 * * 0"
+   ```
+4. 保存,终端跑:
+   ```bash
+   cd "/Users/kevin/Downloads/Claude/自动收集全球的远程工作岗位"
+   git add .github/workflows/weekly.yml
+   git commit -m "schedule: weekly -> 周日 09:00 CST"
+   git push
+   ```
+5. 完事。下一次自动触发就是新时间。
+
+#### 想加多个触发时间?
+
+`schedule` 是列表,加一行 `- cron: ...` 就行:
+
+```yaml
+on:
+  schedule:
+    - cron: "0 2 * * 6"   # 周六 10:00
+    - cron: "0 2 * * 3"   # 周三 10:00 也跑一次
+  workflow_dispatch: {}
+```
+
+#### 想暂时停掉自动调度?
+
+把 `schedule:` 整段注释掉(每行前面加 `#`),保留 `workflow_dispatch: {}`,这样只能手动点 Run workflow 触发。
+
+#### 改完怎么验证?
+
+push 之后去 GitHub 仓库 → Actions 页 → 左侧选 `weekly` → 右上角会显示「Next scheduled run: <UTC 时间>」。把那个 UTC 时间 + 8 小时,应该等于你想要的北京时间。如果不对,说明 cron 写错了,回去再改。
+
+#### 常见坑
+
+- **GitHub cron 不准时**:官方文档明说「schedule 在高负载时段可能延迟几分钟到几十分钟」。不要依赖秒级精度。
+- **GitHub 不会为 fork 仓库跑 schedule**:只在主仓库跑。
+- **改了 cron 但没 push**:本地改完不 push,GitHub 那边还是旧的。
+- **想立刻跑一次看效果**:不用等 cron,去 Actions 页点 `Run workflow` 手动触发。
+- **跑的是旧代码**:跟 AI digest 项目同款坑——queue 里旧 dispatch 没 cancel 干净。staleness check 会 5 秒 fail 掉旧 run,但浪费一次 runner 配额。**点 Run workflow 之前先 cancel 所有 Queued / In progress 的 run**。
