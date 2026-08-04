@@ -59,6 +59,36 @@ jobs:
       - name: Test
         run: python3 -m pytest -q
 
+      - name: Validate notify secrets (fail fast on bad TOML)
+        # 配置错误不属于「通知失败不阻断」的偶发范畴 (SPEC §16):
+        # secret 内容不是合法 TOML 时直接红掉, 不浪费后面 7-8 分钟 LLM API 时间;
+        # 运行时发送失败仍只记 warning。2026-08-04 曾因 secret 手写格式错误
+        # 连续两周静默漏发飞书, run 却全绿。
+        env:
+          NOTIFY_CONFIG: ${{ secrets.NOTIFY_CONFIG }}
+          NOTIFY_CONFIG_KEVIN: ${{ secrets.NOTIFY_CONFIG_KEVIN }}
+        run: |
+          python3 - <<'PY'
+          import os
+          import tomllib
+
+          bad = []
+          for name in ("NOTIFY_CONFIG", "NOTIFY_CONFIG_KEVIN"):
+              raw = os.environ.get(name, "")
+              if not raw.strip():
+                  print(f"{name} 未配置, 跳过")
+                  continue
+              try:
+                  tomllib.loads(raw)
+              except tomllib.TOMLDecodeError as e:
+                  bad.append(f"{name} 不是合法 TOML: {e}")
+          if bad:
+              for msg in bad:
+                  print(f"::error::{msg}")
+              raise SystemExit(1)
+          print("✓ notify secrets TOML 校验通过")
+          PY
+
       - name: Clone site repo into site/
         # site/ 在主仓 .gitignore 里, checkout 不会带过来。但 report 步骤
         # 需要往 site/ 写静态文件, publish 步骤需要从 site/ push 到站点仓。

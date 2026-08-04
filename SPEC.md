@@ -334,8 +334,10 @@
 ### 失败兜底
 
 - **staleness check**:checkout 后立刻对比 HEAD vs origin/main,落后任何 commit 直接 fail,5 秒内红掉,不浪费 LLM API 时间。
+- **notify 配置校验**(2026-08-05 增加):AI 步骤前先校验 NOTIFY_CONFIG* secret 是否为合法 TOML,非法直接 fail——配置错误不属于「通知失败不阻断」的偶发范畴(2026-08-04 曾因 secret 手写格式错误静默漏发飞书而 run 全绿)。
 - **collect 失败**:`|| true` 兜底,个别源挂不阻断后续。
 - **ai-all 失败**:DASHSCOPE_API_KEY 缺失时整步跳过,周报不含 AI 精选但仍能发。
+- **notify 发送失败**:只记 warning 不阻断(§16),run 保持绿色;怀疑没推送时看 run 的 annotation 与 Notify 步骤日志有无「通知已发送」。
 - **publish 失败**:SITE_PUSH_TOKEN 缺失或 push 失败时记 warning,不阻断代码仓 commit。
 - **commit & push 代码仓**:`git pull --rebase` 兜底并发 push。
 
