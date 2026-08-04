@@ -1,0 +1,502 @@
+[
+  {
+    "source": "himalayas",
+    "source_id": "https://himalayas.app/companies/micro1/jobs/member-of-technical-staff-frontier-ai",
+    "tldr": "micro1 是一家专注于前沿 AI 技术的公司，现招聘技术专家负责研究、数据和实际 AI 系统的交叉工作，薪资范围为 60 万至 200 万美元，支持全球远程工作。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49165622",
+    "tldr": "Viteus 提供 AI 应用程序的生产支持服务，现招聘全栈、AI/ML、QA 和 DevOps 合同工程师，支持远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49164668",
+    "tldr": "FunnelStory 是一家致力于企业数据查询和 AI 工业化的公司，现招聘首席 AI 系统工程师，支持印度地区的远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49157646",
+    "tldr": "Starbridge 正在构建一个将大规模公共和企业数据转化为销售洞察的 AI 平台，现招聘高级 AI 工程师，支持纽约或远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "eleduck",
+    "source_id": "3EfD1W",
+    "tldr": "电鸭直招帖是一家北美 AI 创业公司，现招聘一位 macOS 开发工程师（应届 - 3 年），薪资范围为 7-10K，支持全职远程工作。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150143",
+    "tldr": "Mindrift 为领先的科技公司提供项目基础的 AI 测试、评估和改进机会，现招聘自由职业者代理评估工程师，支持澳大利亚地区远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/clickhouse-ai-product-engineer-clickstack-1",
+    "tldr": "ClickHouse 是一家领先的实时分析和数据仓库公司，现招聘 ClickStack 的 AI 产品工程师，支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "v2ex",
+    "source_id": "1231304",
+    "tldr": "V2EX 招聘帖是一家获得千万美元融资的 AI Agent 项目，现招聘 Research Engineer，参与从研究探索到产品落地的工作，支持远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/superplane-product-engineer-1",
+    "tldr": "SuperPlane 是一家提供端到端项目管理的公司，现招聘产品工程师，支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49166080",
+    "tldr": "Aqora Quantum 是一家专注于量子计算算法层的公司，现招聘资深全栈工程师（Rust + React），支持巴黎现场办公或欧盟地区远程工作，薪资为 70-90k 欧元加股权。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49165359",
+    "tldr": "Proxybase 是一家构建透明和道德来源的住宅代理网络的公司，现招聘后端系统工程师（Rust），支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49160993",
+    "tldr": "Apex Dental Partners 是一家牙科支持组织，现招聘全栈开发人员，支持达拉斯现场办公或美国远程/混合工作，具体薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49158982",
+    "tldr": "Legion Intelligence 是一家为政府客户提供受控智能代理平台的公司，现招聘高级/员工后端工程师，支持美国远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49158050",
+    "tldr": "Normal 是一家提供自动扩展游戏服务器托管服务的公司，现招聘高级后端软件工程师，支持远程 PT/ET 小时工作，薪资范围为 100-140K 美元。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/uptalent-io-part-time-brand-outreach-assistant-b2b-saas-vc-remote-1",
+    "tldr": "Uptalent.io 是一家 B2B SaaS 风投公司，现招聘兼职品牌及外联助理，支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/power-digital-growth-marketing-manager-b2b-saas-1",
+    "tldr": "Power Digital 是一家技术支持的增长公司，现招聘 B2B SaaS 增长营销经理，支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/druva-technical-sales-enablement-manager-partners",
+    "tldr": "Druva 是一家提供数据恢复解决方案的公司，现招聘合作伙伴技术销售赋能经理，支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/truelogic-senior-software-architect-c-angular-ai-first-govtech-saas-company",
+    "tldr": "Truelogic 是一家领先的近岸人员扩充服务提供商，现招聘高级软件架构师（C#/Angular/AI First），支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/us-haut-ai-head-of-customer-success-saas",
+    "tldr": "us Haut.AI 是一家 SaaS 公司，现招聘客户成功主管，支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49164297",
+    "tldr": "Chainguard 是一家开源安全公司，现招聘扫描器产品经理，支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150145",
+    "tldr": "Mindrift 是一家连接顶级领域专家与尖端 AI 项目的公司，现招聘前 MBB 策略顾问进行 AI 培训，支持澳大利亚地区远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "himalayas",
+    "source_id": "https://himalayas.app/companies/micro1/jobs/productivity-software-expert-860932029",
+    "tldr": "micro1 是一家专注于生产力软件的公司，现招聘生产力软件专家，支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/ebanx-group-product-manager-argentina",
+    "tldr": "EBANX 是一家成功的金融科技公司，现招聘集团产品经理，支持阿根廷地区的远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "himalayas",
+    "source_id": "https://himalayas.app/companies/micro1/jobs/growth-manager-5405074949",
+    "tldr": "micro1 是一家专注于企业 AI 客户的公司，现招聘增长经理，负责执行市场策略，支持全球远程工作，薪资范围为 130,000 至 170,000 美元。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/toggl-events-field-marketing-manager",
+    "tldr": "Toggl 是一家提供时间跟踪工具的公司，现招聘活动及现场营销经理，支持全球远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49163658",
+    "tldr": "pganalyze 是一家为优化 Postgres 数据库性能提供可观测性和自动化工具的公司，现招聘市场经理，负责推广和营销策略的制定与执行，薪资包括基础年薪 130-160k 美元、年度奖金及股权激励，工作地点为美国远程。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150139",
+    "tldr": "HubSpot 是一家领先的客户关系管理平台，旨在帮助全球各地的企业通过其营销、销售和服务软件实现更好的增长。该公司正在寻找一位助理入站销售代表，工作地点在澳大利亚。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/fin-senior-partnerships-manager-latam",
+    "tldr": "Fin 是一家致力于帮助企业提供完美客户体验的人工智能客户服务代理公司，现招聘拉丁美洲高级合作伙伴经理，负责拓展和维护该地区的业务关系，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/platform-sh-director-sales",
+    "tldr": "Upsun（前身为 Platform.sh）是一家云应用平台公司，专注于为现代混合团队提供支持，现招聘销售总监，负责推动公司的销售战略和业绩增长，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/fin-account-executive-midmarket-latam",
+    "tldr": "Fin 是一家致力于帮助企业提供完美客户体验的人工智能客户服务代理公司，现招聘中端市场客户经理，负责拉丁美洲市场的客户开发和维护，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/flexport-account-executive-enterprise",
+    "tldr": "Flexport 是一家致力于简化全球贸易流程的公司，现招聘企业级客户经理，负责拓展和维护大型企业的合作关系，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "146184",
+    "tldr": "Autodesk 是一家知名的软件公司，现招聘 Fusion 高级销售专员，负责在亚太地区特别是韩国开拓新的高潜力制造客户，推动 Fusion 产品的采用。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/6-figure-creative-remote-high-ticket-closer",
+    "tldr": "6 Figure Creative 是一家提供高价值销售培训和咨询服务的公司，现招聘远程高价值成交专员，保证最低年薪 100,000 美元且无上限提成，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "himalayas",
+    "source_id": "https://himalayas.app/companies/crewbloom/jobs/sales-specialist-4704068499",
+    "tldr": "Crewbloom 正在为一家专业的 WordPress 代理机构招聘销售专员，负责销售网站维护、性能和安全服务包，工作地点在菲律宾。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/silverorange-director-of-business-development",
+    "tldr": "silverorange 是一家设计和开发公司，现招聘业务发展总监，负责推动公司的业务增长和新客户的开发，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/testgorilla-senior-demand-generation-manager",
+    "tldr": "TestGorilla 是一家提供在线技能测试和评估工具的公司，现招聘高级需求生成经理，负责制定和执行市场需求生成策略，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/designfiles-content-marketing-coordinator",
+    "tldr": "DesignFiles 是一家室内设计软件公司，现招聘内容营销协调员，负责组织和执行营销活动，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/binance-dach-community-manager-events",
+    "tldr": "Binance 是一家全球领先的加密货币交易平台，现招聘 DACH 地区社区经理（活动方向），负责管理和组织德国、奥地利和瑞士地区的线上和线下社区活动，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/buffer-senior-engineer-growth-marketing",
+    "tldr": "Buffer 是一家社交媒体管理平台，现招聘高级前端工程师加入其增长营销团队，负责开发和优化营销相关的技术解决方案，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/jobgether-real-estate-photo-editor-1",
+    "tldr": "Jobgether 是一家提供远程工作机会的公司，现招聘房地产照片编辑师，负责处理和优化房地产图片，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/uptalent-io-remote-landscape-architect-with-us-experience-1",
+    "tldr": "Uptalent.io 是一家远程人才招聘平台，现招聘具有美国经验的远程景观建筑师，负责设计和规划景观项目，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/ehvert-engineering-a-salas-o-brien-company-electrical-design-engineer-estonia",
+    "tldr": "Ehvert Engineering a Salas O'Brien company 是一家工程设计公司，现招聘电气设计工程师，负责设计和规划电气系统，工作地点在爱沙尼亚，职位类型为长期独立承包商协议。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/remote-talent-latam-disenador-grafico-con-motion-graphics-remote-latam-only-80010",
+    "tldr": "Remote Talent LATAM 是一家连接拉丁美洲专业人才和全球领先公司的平台，现招聘具有动态图形设计能力的平面设计师，工作地点仅限拉丁美洲。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/jobgether-freelance-graphic-designer-signage-designer",
+    "tldr": "Jobgether 是一家提供远程工作机会的公司，现招聘自由职业平面设计师/标识设计师，负责设计和制作各种标识和图形材料，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/ilogos-2d-character-concept-artist",
+    "tldr": "iLogos 是一家游戏开发工作室，现招聘 2D 角色概念艺术家，负责设计和绘制游戏角色的概念艺术，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/ilogos-lead-delivery-manager-technical-lead",
+    "tldr": "iLogos 是一家游戏开发工作室，现招聘首席交付经理/技术主管，负责管理和领导项目的交付和技术实施，工作地点可以是全球任何地方。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49160915",
+    "tldr": "Railway 是一家提供基础设施管理和部署服务的公司，现招聘多个岗位，包括存储基础设施工程师、全栈产品工程师、可观测性基础设施工程师、品牌网页设计师和通用基础设施工程师，工作地点为全球远程。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150142",
+    "tldr": "Nagarro 是一家提供 IT 咨询和解决方案的公司，现招聘动态图形艺术家，负责使用 Adobe After Effects 和 Premiere Pro 制作教育和教学视频，工作地点在菲律宾。"
+  },
+  {
+    "source": "remoteok",
+    "source_id": "1135920",
+    "tldr": "Favorite Records 是一家音乐公司，现招聘设计师，负责艺术家宣传、专辑封面、巡演品牌和社会媒体资产的设计，工作地点在印第安纳州。"
+  },
+  {
+    "source": "remoteok",
+    "source_id": "1136074",
+    "tldr": "KSNL Consulting LLC 是一家项目咨询公司，现招聘呼叫专员，负责与潜在客户进行电话沟通并推动销售进程，工作地点在印度中央邦印多尔市。"
+  },
+  {
+    "source": "remoteok",
+    "source_id": "1135994",
+    "tldr": "JFrog是一家为全球顶级公司提供软件构建和安全解决方案的公司，作为业务开发代表，你将负责推广公司的行业领先解决方案，帮助客户解决最紧迫的DevSecOps问题。该职位位于悉尼，薪资未公开。"
+  },
+  {
+    "source": "eleduck",
+    "source_id": "0XfqnD",
+    "tldr": "电鸭直招帖正在寻找社区运营人员，主要职责包括官方LinkedIn账号的整体规划、内容运营和个人账号矩阵搭建，以及数据分析与优化等。该岗位全职远程工作，薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49171202",
+    "tldr": "Sourcegraph致力于为AI驱动的软件开发构建上下文层，招聘多个技术岗位如软件工程师、技术主管等，支持远程工作，具体薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49170090",
+    "tldr": "Atom Computing专注于量子计算领域，招聘多种工程和技术职位，包括软件工程师、硬件工程师等，支持美国境内的远程工作，薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49169841",
+    "tldr": "Mitte是一家AI创意套件提供商，招聘高级全栈工程师、前端工程师和后端工程师等多个技术岗位，支持柏林现场办公或远程工作，薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49169577",
+    "tldr": "Pingintel是一家位于迈阿密的初创公司，利用先进的网络技术和机器学习工具革新财产保险行业，招聘数据标注运营负责人，支持远程工作，薪资未公开。"
+  },
+  {
+    "source": "himalayas",
+    "source_id": "https://himalayas.app/companies/micro1/jobs/military-operations-ihl-expert-3330434352",
+    "tldr": "micro1正在招聘军事行动与国际人道法专家，参与重要的国防政策和人道法项目，薪资范围在50到90美元/小时，支持全球远程工作。"
+  },
+  {
+    "source": "himalayas",
+    "source_id": "https://himalayas.app/companies/micro1/jobs/document-reviewer-4531056491",
+    "tldr": "micro1招聘文档审核员，负责训练下一代AI系统，薪资范围在63到119美元/小时，支持全球远程工作。"
+  },
+  {
+    "source": "himalayas",
+    "source_id": "https://himalayas.app/companies/micro1/jobs/strategic-project-lead-j-d-legal-expertise",
+    "tldr": "micro1招聘具有法律专业知识的战略项目负责人，年薪范围在40万到55万美元之间，负责管理团队并训练前沿AI模型，支持全球远程工作。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49167837",
+    "tldr": "SafetyWing致力于为远程工作者建立全球社会安全网，提供健康保险和退休产品，招聘全球远程员工，薪资未公开。"
+  },
+  {
+    "source": "himalayas",
+    "source_id": "https://himalayas.app/companies/micro1/jobs/strategic-project-lead",
+    "tldr": "micro1招聘战略项目负责人，年薪范围在30万到50万美元之间，负责管理和培训团队以训练前沿AI模型，支持全球远程工作。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49167059",
+    "tldr": "Unitary Foundation是一个非营利研究组织，致力于构建开放源代码的量子计算基础设施，招聘容错量子编译和模拟的技术人员，支持美国境内的远程工作，薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/lithic-senior-aml-analyst",
+    "tldr": "Lithic是现代卡发行和处理平台，招聘高级反洗钱分析师，支持全球远程工作，薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/prove-account-director-enterprise",
+    "tldr": "Prove是一家手机中心化身份认证公司，招聘企业账户总监，支持全球远程工作，薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/stability-ai-research-scientist-professional-creative-workflows",
+    "tldr": "Stability AI招聘专业创意工作流程的研究科学家，支持全球远程工作，薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49164584",
+    "tldr": "Trustworthy Technology致力于恢复技术中的“可信赖”特性，招聘兼职人员参与FOSS+工具集、店面和服务的策划和建设，支持远程工作，薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49164146",
+    "tldr": "Retool提供一个让所有员工都能使用AI构建应用的平台，招聘有2-8年经验的治理团队成员，支持美国境内的远程或混合工作模式，薪资未公开。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "143981",
+    "tldr": "GitLab是DevSecOps的智能编排平台，招聘亚太地区的客户成功经理，支持澳大利亚地区的工作，薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49162914",
+    "tldr": "Amplify Education致力于开发K-12学校的下一代课程和评估程序，招聘多个技术岗位，支持美国境内的远程工作，薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49162776",
+    "tldr": "Domino Data Lab招聘多个职位，提供良好的薪酬、工作时间和企业文化，支持美国境内的远程工作，薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49161851",
+    "tldr": "Klara Systems是一家FreeBSD和ZFS工程公司，招聘技术营销工程师，支持远程工作，薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/toptal-cad-engineer-ai-model-training-evaluation-remote",
+    "tldr": "Toptal招聘CAD工程师，负责AI模型的训练和评估，支持全球远程工作，薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/toptal-technical-program-manager-servicenow-program-remote",
+    "tldr": "Toptal招聘技术项目经理，负责ServiceNow项目的交付，支持全球远程工作，薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/toptal-senior-servicenow-developer-remote",
+    "tldr": "Toptal招聘高级ServiceNow开发人员，负责设计、构建和维护企业级ServiceNow应用程序，支持全球远程工作，薪资未公开。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49159519",
+    "tldr": "DualEntry是一家AI原生ERP软件公司，招聘多个技术岗位，支持远程工作，薪资未公开。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/the-humane-league-temporary-us-corporate-relations-specialist",
+    "tldr": "The Humane League 是一家致力于结束动物虐待的全球非营利组织，现招聘临时美国企业关系专员，负责与企业沟通和合作，推动动物福利政策。该职位可以远程工作，面向全球开放。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49157437",
+    "tldr": "Everis 是一家由 Time Doctor 创始人创立的价值2500万美元的人工智能软件初创公司，现招聘中级或高级增长经理，负责移动应用的增长策略，包括付费获取、ASO、订阅转化、留存、收入和利润。薪资范围为30,000至50,000美元，支持远程工作。"
+  },
+  {
+    "source": "eleduck",
+    "source_id": "N0fV3v",
+    "tldr": "新媒体运营助理岗位主要负责自媒体的基础运营辅助工作，包括文案整理、素材归档、账号数据记录等简单日常工作。公司总部位于台湾，支持全职或兼职远程办公，零基础可应聘。"
+  },
+  {
+    "source": "hn",
+    "source_id": "49156702",
+    "tldr": "Flywheel Motion 是一家为创始人、科学家和经营者构建权威基础设施的公司，专注于定位和叙事，并通过网站、内容管道和分发来实现复利效应。该公司提供远程合同工作机会，面向全球开放。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150148",
+    "tldr": "LevelUp 是一家为代理商、软件供应商和网站所有者提供外包解决方案的专业机构，现招聘技术支持代理，负责处理客户的技术问题和支持请求。该职位面向菲律宾地区开放。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150146",
+    "tldr": "Intellect 是一家全球领先的健康科技公司，在100多个市场提供辅导、咨询和治疗服务。现招聘临床服务提供商，负责在澳大利亚提供心理健康服务。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150141",
+    "tldr": "GitLab 是一个 DevSecOps 智能编排平台，现招聘澳大利亚地区的客户服务经理，负责维护和发展客户关系，确保客户满意度并推动业务增长。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150138",
+    "tldr": "Montu 是澳大利亚最大的医疗科技公司，专注于替代医疗保健。现招聘医学撰稿人，负责撰写高质量的医学内容，支持公司的教育平台和诊所运营。"
+  },
+  {
+    "source": "eleduck",
+    "source_id": "ARfZod",
+    "tldr": "高级 Go 后端开发工程师岗位要求候选人具备3年以上的 Go 项目经验，负责服务端功能开发、系统优化和稳定性建设。薪酬范围为每月30,000至40,000元人民币，支持全职远程工作。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150102",
+    "tldr": "GitLab 是一个 DevSecOps 智能编排平台，现招聘新加坡地区的高级客户服务架构师，负责提供技术解决方案和支持，帮助客户成功使用 GitLab 平台。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150090",
+    "tldr": "LevelUp 是一家为代理商、软件供应商和网站所有者提供外包解决方案的专业机构，现招聘客户服务专家，负责处理客户的服务请求和技术支持。该职位面向菲律宾地区开放。"
+  },
+  {
+    "source": "jobicy",
+    "source_id": "150089",
+    "tldr": "Tailscale 是一家致力于构建安全网络连接的公司，现招聘创始高级客户服务工程师，负责为客户提供技术支持和解决方案，确保其网络的安全性和可靠性。该职位面向新加坡地区开放。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/asana-senior-privacy-engineer",
+    "tldr": "Asana 的安全团队负责保护员工、用户和客户的数据安全，现招聘高级隐私工程师，负责制定和实施隐私保护措施，确保合规性。该职位支持全球远程工作。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/inspiring-lives-today-hr-corporate-professionals-career-transition-opportunity-100-remote",
+    "tldr": "Inspiring Lives Today 是一家总部位于西澳大利亚珀斯的公司，现招聘人力资源或企业专业人士，提供职业转型机会。该职位完全远程工作，面向全球开放。"
+  },
+  {
+    "source": "eleduck",
+    "source_id": "ZXfREz",
+    "tldr": "该职位被标记为涉嫌诈骗，请谨慎对待。公司声称是一支加密原生爱好者和工程师组成的团队，招聘全栈工程师，负责 Web3 和 AI 代理的核心系统开发。该职位支持全职远程工作。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/smartsheet-financial-analyst-go-to-market-gtm-fp-a-west",
+    "tldr": "Smartsheet 是一家赋能团队无缝管理和扩展解决方案的公司，现招聘市场推广财务分析师，负责财务规划和分析，支持公司在西部市场的业务发展。该职位支持全球远程工作。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/temporal-technologies-accounts-payable-specialist",
+    "tldr": "Temporal Technologies 是一家开源编程模型公司，现招聘应付账款专员，负责管理公司的应付账款流程，确保准确性和及时性。该职位支持全球远程工作。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/smartsheet-director-gtm-ops-americas",
+    "tldr": "Smartsheet 是一家赋能团队无缝管理和扩展解决方案的公司，现招聘美洲市场运营总监，负责领导市场运营团队，推动公司在美洲市场的业务增长。该职位支持全球远程工作。"
+  },
+  {
+    "source": "remoteok",
+    "source_id": "1135908",
+    "tldr": "Berni and Mick Ireland 现招聘总经理，负责战略规划和领导团队，解决复杂挑战并激励他人。该职位面向澳大利亚昆士兰州阳光海岸地区开放，支持远程工作。"
+  },
+  {
+    "source": "himalayas",
+    "source_id": "https://himalayas.app/companies/crewbloom/jobs/human-resources-generalist-5091479857",
+    "tldr": "Crewbloom 公司现招聘人力资源专员，负责从招聘到离职的整个员工生命周期管理，确保合规性和高效运营。该职位面向菲律宾地区开放。"
+  },
+  {
+    "source": "eleduck",
+    "source_id": "x0f1qW",
+    "tldr": "Web3 公司招聘远程网站/App 内容运营人员，负责内容策划、热点跟进、活动执行和数据分析等工作，提升运营效率。要求2年以上相关经验，月薪范围为8,000至18,000元人民币，支持全职远程工作。"
+  },
+  {
+    "source": "eleduck",
+    "source_id": "gYfO0b",
+    "tldr": "Fairy Global 是一支全女性团队，专注于全球红人营销领域，现招聘海外达人BD，负责开发匹配品牌的海外达人，洽谈合同条款并执行项目方案。要求1年以上相关经验，月薪范围为7,000至10,000元人民币，支持全职远程工作。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/amwell-lead-fp-a-analyst",
+    "tldr": "Amwell 是一家通过技术和创新改善全球医疗保健的公司，现招聘首席财务规划与分析分析师，负责财务规划和分析，支持公司的业务决策。该职位支持全球远程工作。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/gitlab-area-vice-president-financial-services",
+    "tldr": "GitLab 是一个 DevSecOps 智能编排平台，现招聘金融服务区域副总裁，负责领导金融服务业务的发展，推动客户成功和业务增长。该职位支持全球远程工作。"
+  },
+  {
+    "source": "wwr",
+    "source_id": "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-marketing",
+    "tldr": "GitLab 是一个 DevSecOps 智能编排平台，现招聘市场营销领域的AI转型负责人，负责推动公司内部的AI转型，提升市场营销效率。该职位支持全球远程工作。"
+  }
+]
